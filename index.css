@@ -1,0 +1,133 @@
+* {
+    padding: 5px;
+    margin: 0px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+header img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+header h2 {
+    display: inline-block;
+    font-size: 1.3rem;
+    top: 1em;
+    position: absolute;
+}
+nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin-top: -65px;
+    /* display: inline-block; */
+}
+nav li{
+    display:inline;
+}
+nav a{
+    font-size: 1.1rem;
+    display:inline-block;
+    padding:1rem;
+    color: black;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+nav a:hover {
+    color: #dda0dd;
+}
+@media (max-width : 880px) {
+    nav {
+        display: none;
+    }
+}
+header button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #8a2be2;
+    color: #fff;
+    right: 15px;
+    display: inline;
+    position: absolute;
+}
+@media (min-width : 880px) {
+    header button {
+        top: 13px;
+    }
+}
+.title {
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.title span {
+    color: #dda0dd;
+}
+.sub-title p {
+    color: grey;
+    font-size: 1.1em;
+}
+.title2 {
+    font-size: 1.3rem;
+    line-height: 50px;
+}
+.title2 span {
+    color: #dda0dd;
+}
+main button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #c790c7, #ecabec);
+    color: #fff;
+    font-size: 0.9em;
+    transition: all 1s ease;
+    bottom: 2rem;
+    position: absolute;
+}
+main button:hover {
+    border-radius: 30px;
+background: linear-gradient(145deg, #ecabec, #c790c7);
+}
+.img1 img {
+    display: none;
+}
+.img2 img {
+    display: none;
+}
+@media (min-width : 880px) {
+    .title2 {
+        right: 15px;
+        position: absolute;
+        padding-top: 170px;
+    }
+    .sub-title {
+        padding-top: 230px;
+        right: 225px;
+        position: absolute;
+    }
+.img1 img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    right: 155px;
+    top: 60px;
+   }     
+   .img2 img {
+    display: inline-block;
+    width: 360px;
+    height: 340px;
+    margin: auto;
+    position: absolute;
+    top: 270px;
+   }     
+   main button {
+       right: 15px;
+   }
+}
